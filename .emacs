@@ -74,9 +74,9 @@
 (define-key php-mode-map '[M-S-down] 'flymake-goto-next-error)
 
 ;; Autocomplete
-(require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "/home/fabsor/.emacs.d/ac-dict")
-(ac-config-default)
+;(require 'auto-complete-config)
+;(add-to-list 'ac-dictionary-directories "/home/fabsor/.emacs.d/ac-dict")
+;(ac-config-default)
 
 ;(add-hook 'php-mode-hook
 ;(lambda ()
